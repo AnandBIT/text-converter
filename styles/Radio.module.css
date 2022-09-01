@@ -8,8 +8,8 @@
 }
 
 .btn {
-	height: .9rem;
-	width: .9rem;
+	height: 0.9rem;
+	width: 0.9rem;
 	border-radius: 50%;
 	border: 1.2px solid;
 	@apply relative border-green grid place-items-center mr-2 p-[2px];
