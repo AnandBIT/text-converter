@@ -1,6 +1,6 @@
 .app {
 	@apply px-16 py-12;
-	@apply sm:p-8;
+	@apply sm:p-6;
 }
 
 .box {

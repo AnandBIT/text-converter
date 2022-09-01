@@ -1,5 +1,6 @@
 .input {
 	@apply opacity-0 absolute h-0 w-0;
+	/* accent-color: green; */
 }
 
 .label {
@@ -7,11 +8,12 @@
 }
 
 .btn {
-	height: 1rem;
-	width: 1rem;
+	height: .9rem;
+	width: .9rem;
 	border-radius: 50%;
-	border: 2px solid;
-	@apply border-green relative grid place-items-center mr-2 p-[1.2px];
+	border: 1.2px solid;
+	@apply relative border-green grid place-items-center mr-2 p-[2px];
+	@apply sm:p-[2.1px] sm:border-[.9px];
 }
 
 .btn::after {
