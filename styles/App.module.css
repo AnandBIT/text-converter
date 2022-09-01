@@ -1,0 +1,29 @@
+.app {
+	@apply px-16 py-12;
+	@apply sm:p-8;
+}
+
+.box {
+	box-shadow: 0 9px 15px 2px #61656752;
+	@apply rounded-lg p-8 relative;
+}
+
+.box::before,
+.box::after {
+	content: '';
+	height: 6px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	@apply bg-black-light;
+}
+
+.box::before {
+	top: 0;
+	@apply rounded-t-lg;
+}
+
+.box::after {
+	bottom: 0;
+	@apply rounded-b-lg;
+}

@@ -1,0 +1,24 @@
+.textBox {
+	border: 1px solid;
+	outline: none;
+	transition: border-color 0.2s;
+	@apply border-grey p-4 rounded-md;
+	@apply md:p-2;
+}
+
+.textBox:focus {
+	outline: none;
+	@apply border-blue;
+}
+
+.btn {
+	@apply text-white bg-green p-3 text-lg rounded-md;
+	letter-spacing: 1px;
+	transition: background-color 0.1s;
+	@apply sm:text-base sm:p-2;
+}
+
+.btn:hover,
+.btn:focus {
+	@apply bg-green-dark;
+}
