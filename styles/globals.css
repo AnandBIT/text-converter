@@ -12,6 +12,12 @@
 
 @media screen(md) {
 	:root {
-		font-size: 75%;
+		font-size: 85%;
+	}
+}
+
+@media screen(sm) {
+	:root {
+		font-size: 90%;
 	}
 }

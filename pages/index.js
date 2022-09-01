@@ -9,7 +9,7 @@ function App() {
 	return (
 		<div className={styles.app}>
 			<div className={styles.box}>
-				<h1 className='text-black text-center text-5xl mb-10 font-semibold md:text-4xl'>
+				<h1 className='text-black text-center text-5xl mb-10 font-semibold md:text-4xl sm:text-3xl'>
 					Text Converter
 				</h1>
 				<div className='grid gap-4'>

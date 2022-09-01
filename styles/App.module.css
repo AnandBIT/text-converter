@@ -6,6 +6,7 @@
 .box {
 	box-shadow: 0 9px 15px 2px #61656752;
 	@apply rounded-lg p-8 relative;
+	@apply sm:p-6;
 }
 
 .box::before,
